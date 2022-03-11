@@ -19,5 +19,5 @@ Gem::Specification.new do |spec|
   spec.executables = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   spec.require_paths = ["lib"]
   spec.add_development_dependency 'rake-compiler'
-  spec.extensions << 'ext/rusage/extconf.rb'
+  spec.extensions << 'ext/extconf.rb'
 end
