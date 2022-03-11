@@ -8,7 +8,7 @@ require 'ryby_process_info/version'
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |spec|
   spec.name        = 'ryby_process_info'
-  spec.version     = RybyProcessInfo::VERSION
+  spec.version     = RubyProcessInfo::VERSION
   spec.authors     = ['Potok']
   spec.email       = ['tech@potok.io']
   spec.homepage    = 'https://potok.io'
